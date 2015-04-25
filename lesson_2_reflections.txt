@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+    
+     A git repository was created with the .git file. Git recognizes that I do not have any files committed. We need to initialize a repository so that we have version control for our files and can revert back changes just in case bugs were introduced.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is a place for you to place related changes that are ready to be committed. The files in the staging area can be removed or committed. Once committed you will have versioning to reference or revert back to using the same file name. A working directory does not create versioning automatically once you choose to save your file unless you store copies with different file names.
