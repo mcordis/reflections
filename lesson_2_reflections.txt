@@ -18,3 +18,7 @@ How do the diagrams help you visualize the branch structure?
 
      Understand the parent relationships for each commit in a branch and which commits are not reachable.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+     The commits from branches are merged together so that you have one final branch with all changes. The diagram visually represents how the merge works and which commits are in the final branch.
+
