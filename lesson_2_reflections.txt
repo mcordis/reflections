@@ -10,3 +10,6 @@ How can you use the staging area to make sure you have one commit per logical ch
     
     Git status allows you to see the files that you have modified from the original version. If you made changes to multiple files you can see all of the files waiting to be committed. You have the choice to commit the each file separately or all together.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+     When you need to make isolated changes that you do not want to impact the master branch version or you have different versions that are language specific.
