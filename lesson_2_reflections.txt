@@ -5,3 +5,8 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
     The staging area is a place for you to place related changes that are ready to be committed. The files in the staging area can be removed or committed. Once committed you will have versioning to reference or revert back to using the same file name. A working directory does not create versioning automatically once you choose to save your file unless you store copies with different file names.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    
+    Git status allows you to see the files that you have modified from the original version. If you made changes to multiple files you can see all of the files waiting to be committed. You have the choice to commit the each file separately or all together.
+
