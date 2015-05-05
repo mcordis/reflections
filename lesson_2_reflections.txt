@@ -22,3 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
      The commits from branches are merged together so that you have one final branch with all changes. The diagram visually represents how the merge works and which commits are in the final branch.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+     Pros, Git is able to identify changes that were made and can merge them into 1 file. Git can also identify is two individuals made changes to the same code and flag the conflicts before merging. Cons of manually having to merge is that you won’t be able to quickly identify if someone has committed changes that conflict with your changes. You would also have to manually go through the file to identify the conflicts where Git identifies the conflicts automatically for your to resolve.
